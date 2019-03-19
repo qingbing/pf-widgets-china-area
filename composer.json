@@ -1,0 +1,41 @@
+{
+    "name": "qingbing/pf-widgets-china-area",
+    "description": "渲染部件——中国行政区划代码及级联组件（php+js）",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "area",
+        "china-area",
+        "js-area"
+    ],
+    "homepage": "http://www.phpcorner.net",
+    "authors": [
+        {
+            "name": "qingbing",
+            "email": "780042175@qq.com"
+        }
+    ],
+    "require": {
+        "qingbing/php-helper": ">=1.0, <2.0",
+        "qingbing/php-html": ">=1.0, <2.0",
+        "qingbing/php-render": ">=1.0, <2.0",
+        "qingbing/pf-components-assets-manager": ">=1.0, <2.0"
+    },
+    "require-dev": {
+        "qingbing/php-database": ">=1.0, <2.0",
+        "qingbing/php-file-cache": ">=1.0, <2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tools\\": "src/tools",
+            "Widgets\\": "src/widgets"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TestApp\\": "test/app",
+            "Controllers\\": "test/controllers"
+        }
+    }
+}
