@@ -24,7 +24,7 @@ class ChinaArea
             $db = \PF::app()->getComponent('database');
             /* @var \Components\Db $db */
             $res = $db->getFindBuilder()
-                ->setTable('pf_china_area')
+                ->setTable('pub_china_area')
                 ->addWhereIn('code', [
                     $code,
                     substr($code, 0, 4) . '00',

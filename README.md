@@ -10,7 +10,7 @@
 - 内部的area.js可以在引入"jQuery"的情况下直接拷贝单独使用
 - 如果使用 "\Tools\ChinaArea"， 需要引入"qingbing/php-database"
   - 代码里的使用的数据库配置为 "application.database" ,因此，务必在application中配置明为"database"的数据库数据
-  - 需要在数据库中手动执行"src/source/pf_china_area.sql"
+  - 需要在数据库中手动执行"src/source/pub_china_area.sql"
 - 区域使用的源数据来源于"民政部网站"，被拷贝在"test/source/code.txt"里
 - 对于直接使用的项目，js资源无需手动管理，参考"qingbing/php-assets-manager"
 

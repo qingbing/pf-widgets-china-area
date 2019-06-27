@@ -223,7 +223,7 @@ class AreaController extends Controller
         $data = $this->getData();
 
         $query = $db->getInsertBuilder()
-            ->setTable('pf_china_area')
+            ->setTable('pub_china_area')
             ->setMultiFields(['code', 'name'])
             ->setMultiData(array_values($data))
             ->getQuery();

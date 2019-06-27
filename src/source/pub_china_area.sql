@@ -1,12 +1,12 @@
 
-CREATE TABLE `pf_china_area` (
+CREATE TABLE `pub_china_area` (
   `code` char(6) NOT NULL COMMENT '行政代码',
   `name` varchar(50) NOT NULL COMMENT '行政名称',
-  PRIMARY KEY (`code`)
+  PRIMARY KEY `pk_code`(`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='中国行政区域表';
 
 
-INSERT INTO `pf_china_area` (`code`,`name`) VALUES
+INSERT INTO `pub_china_area` (`code`,`name`) VALUES
 ('110000','北京市'),
 ('110101','东城区'),
 ('110102','西城区'),
